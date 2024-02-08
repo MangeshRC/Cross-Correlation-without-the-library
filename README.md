@@ -53,3 +53,11 @@ docker exec -ti jupyter python BDD100K_Dataset_Analysis/fiftyone_run.py
 ```
 
 
+## 2. Model
+
+<ul>
+  <li>Model inference was obtained using Colab GPU Notebook. A properly formatted code notebook from Colab is added in this repository. ( "3. Colab_Inference_Notebook.ipynb" )</li>
+  <li>The execution details are mentioned in the Uploaded Notebook in this repository.</li>
+</ul>
+
+
