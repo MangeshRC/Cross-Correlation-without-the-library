@@ -37,8 +37,8 @@ jupyter notebook --ip=0.0.0.0 --port=5000 --no-browser --allow-root
 [![fiftyone-screen.png](https://i.postimg.cc/RVDzh390/fiftyone-screen.png)](https://postimg.cc/LnLW08Jd)
 
   <li>Submission for this Goal  -  "2. Fiftyone_Data_preparation.ipynb" and the </li>
-  <li>A standalone container is also created to host this notebook environment along with the Dataset.</li>
-  <li>How to execute the notebook in a Container.</li>
+  <li>A standalone container is created to host tool enviornment.</li>
+  <li>How to run fiftyone Visualization Tool.</li>
     <ul>
       <li> Download Docker image</li>
       <li> Create Docker Container </li>
