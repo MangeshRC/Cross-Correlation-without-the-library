@@ -34,7 +34,7 @@ jupyter notebook --ip=0.0.0.0 --port=5000 --no-browser --allow-root
 <ul>
   <li> Sample Screen for the visualisation tool is as follows:</li>
   
-![Alt text](https://1drv.ms/i/s!Am945Q4qfbyRqSh0A2WSMbbSQJw3?e=yDedTy)
+![Alt text]([fiftyone-screen.png](https://postimg.cc/LnLW08Jd))
 
   <li>Submission for this Goal  -  "2. Fiftyone_Data_preparation.ipynb" and the </li>
   <li>A standalone container is also created to host this notebook environment along with the Dataset.</li>
