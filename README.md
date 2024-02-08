@@ -40,9 +40,14 @@ jupyter notebook --ip=0.0.0.0 --port=5000 --no-browser --allow-root
     <ul>
       <li> Download Docker image</li>
       <li> Create Docker Container </li>
-      <li> Start bash and Run jupyter notebook. </li>
-      <li> These Notebooks are present in Docker File directories under "BDD100K_Dataset_Analysis" Folder.</li>
+      <li> Execute Fiftyone App run file in docker. </li>
     </ul>
 </ul>  
+
+```shell
+docker pull mangeshrc/fiftyone_bdd_repo:latest
+docker run --rm -t -d --name=jupyter -p 5000:5000 mangeshrc/fiftyone_bdd_repo:latest
+docker exec -ti jupyter python BDD100K_Dataset_Analysis/fiftyone_run.py
+```
 
 
