@@ -15,15 +15,15 @@ This Repository contains the required submissions for the completion of Bosch Co
   <li>A standalone container is also created to host this notebook environment along with the Dataset.</li>
   <li>How to execute the notebook in a Container.</li>
     <ol>
-      <li>Download Docker image</li>
+      <li> Download Docker image</li>
+      <li> Create Docker Container </li>
+      <li> Start bash and Run jupyter notebook. </li>
+      <li> These Notebooks are present in Docker File directories under "BDD100K_Dataset_Analysis" Folder.</li>
+    </ol>
+</ol>  
       
 ```shell
 docker pull mangeshrc/fiftyone_bdd_repo:latest
-```
-
-      <li> Run Jupyter Server </li>
-
-```shell
 docker run --rm -t -d --name=jupyter -p 5000:5000 mangeshrc/fiftyone_bdd_repo:latest
 docker exec -ti jupyter bash
 jupyter notebook --ip=0.0.0.0 --port=5000 --no-browser --allow-root
