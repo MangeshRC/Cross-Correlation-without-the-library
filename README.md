@@ -14,6 +14,7 @@ A. Annotation Data Analysis through Jupyter Notebook
   <li>How to execute the notebook in a Container.</li>
     Download Docker image</li>
 </ol>
+
 ```shell
 docker pull mangeshrc/fiftyone_bdd_repo:latest
 ```
