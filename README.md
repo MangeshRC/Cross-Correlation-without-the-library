@@ -69,7 +69,10 @@ docker exec -ti jupyter python BDD100K_Dataset_Analysis/fiftyone_run.py
 ## 3. Evaluation and Visualization
 
 <ul>
+  <li> Model evaluations are derived and uploaded in this repository as a PDF file "Evaluation and Prediction Analysis.pdf" </li>
+  <li> Jupyter Notebook used is also uploaded as "4. Prediction_Analysis.ipynb"</li>
   <li> Model evaluations are were computed using Predicted json file from Colab and FiftyOne Tool.</li>
-  <li>  </li>
+  <li> The visualization for predicted images is not present in the docker image provided. </li>
+  <li> These visualizations were performed in local environment. </li>
 </ul>
 
