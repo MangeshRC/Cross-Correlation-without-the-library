@@ -11,12 +11,23 @@ This Repository contains the required submissions for the completion of Bosch Co
 ### 1. Annotation Data Analysis through Jupyter Notebook
 
 <ol>
-  <li>Submission for this Goal  -  <b>1. BDD_Dataset_Analysis_Notebook.ipynb</b>. The notebook is present is the repository for viewing and evaluation purpose.</li>
+  <li>Submission for this Goal  -  "1. BDD_Dataset_Analysis_Notebook.ipynb". The notebook is present is the repository for viewing and evaluation purpose.</li>
   <li>A standalone container is also created to host this notebook environment along with the Dataset.</li>
   <li>How to execute the notebook in a Container.</li>
-    Download Docker image</li>
-</ol>
-
+    <ol>
+      <li>Download Docker image</li>
+      
 ```shell
 docker pull mangeshrc/fiftyone_bdd_repo:latest
 ```
+
+      <li> Run Jupyter Server </li>
+
+```shell
+docker run --rm -t -d --name=jupyter -p 5000:5000 mangeshrc/fiftyone_bdd_repo:latest
+docker exec -ti jupyter bash
+jupyter notebook --ip=0.0.0.0 --port=5000 --no-browser --allow-root
+```
+
+</ol>
+</ol>
