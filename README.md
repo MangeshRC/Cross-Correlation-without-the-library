@@ -57,6 +57,19 @@ docker exec -ti jupyter python BDD100K_Dataset_Analysis/fiftyone_run.py
 <ul>
   <li>Model inference was obtained using Colab GPU Notebook. A properly formatted code notebook from Colab is added in this repository. ( "3. Colab_Inference_Notebook.ipynb" )</li>
   <li>The execution details are mentioned in the Uploaded Notebook in this repository.</li>
+  <li>Few of the Predicted Samples are as follows:</li>
+
+[![Sample-image1.png](https://i.postimg.cc/7LzTS9W4/Sample-image1.png)](https://postimg.cc/VSY68qwZ)
+
+[![Sample-image2.png](https://i.postimg.cc/43pmYdYN/Sample-image2.png)](https://postimg.cc/cK4sjd7V)
+
 </ul>
 
+
+## 3. Evaluation and Visualization
+
+<ul>
+  <li> Model evaluations are were computed using Predicted json file from Colab and FiftyOne Tool.</li>
+  <li>  </li>
+</ul>
 
