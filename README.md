@@ -8,7 +8,7 @@ This Repository contains the required submissions for the completion of Bosch Co
     <li> Visual Analysis using FiftyOne Tool </li>
   </ol>
 
-### 1. Annotation Data Analysis through Jupyter Notebook
+##### 1. Annotation Data Analysis through Jupyter Notebook
 
 <ul>
   <li>Submission for this Goal  -  "1. BDD_Dataset_Analysis_Notebook.ipynb". The notebook is present is the repository for viewing and evaluation purpose.</li>
@@ -29,7 +29,7 @@ docker exec -ti jupyter bash
 jupyter notebook --ip=0.0.0.0 --port=5000 --no-browser --allow-root
 ```
 
-### 2. Visual Analysis using FiftyOne Tool
+##### 2. Visual Analysis using FiftyOne Tool
 
 <ul>
   <li> Sample Screen for the visualisation tool is as follows:</li>
