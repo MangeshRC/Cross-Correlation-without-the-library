@@ -12,6 +12,7 @@ A. Annotation Data Analysis through Jupyter Notebook
   2. A standalone container is also created to host this notebook environment along with the Dataset.
   3. How to execute the notebook in a Container.
     Download Docker image
+
 ```shell
 docker pull mangeshrc/fiftyone_bdd_repo:latest
 ```
